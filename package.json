@@ -1,0 +1,27 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "description": "A blank project for quickly init a ts project",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@swc-node/jest": "^1.4.1",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "prettier-plugin-organize-imports": "^2.3.4",
+    "ts-node": "^10.4.0",
+    "jest": "27.3.1",
+    "jest-mock-extended": "^2.0.4",
+    "env-cmd": "^10.1.0",
+    "@types/jest": "27.0.3",
+    "@types/node": "^16.11.9"
+  },
+  "author": "Alexandre Decollas <alexandre.decollas.pro@gmail.com>",
+  "license": "ISC"
+}
