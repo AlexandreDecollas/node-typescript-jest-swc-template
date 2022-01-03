@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/main.ts",
+    "build": "tsc",
     "test": "jest"
   },
   "devDependencies": {
     "@swc-node/jest": "^1.4.1",
+    "typescript": "^4.5.4",
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
